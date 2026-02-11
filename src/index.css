@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Noto Serif KR", serif;
+}
+
+:root {
+  background-color: black;
+}
