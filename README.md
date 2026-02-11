@@ -6,6 +6,10 @@
 
 ![alt text](image-1.png)
 
+- 개발기록
+    - [Local AI를 이용한 EN/KOR 스크립트 생성기 개발기](https://rootly.kr/local-aireul-iyonghan-en-kor-jamag-saengseonggi-gaebalgi-sihaengcagowa-gisuljeog-dolpagu/)
+    - [개인 vps 장애 회고](https://rootly.kr/gaein-vps-jangae-hoego/)
+    - [AI 파이프라인의 동시성 문제, Message Queue로 해결하기 (Redis + Celery)](https://rootly.kr/ai-paipeurainyi-dongsiseong-munje-message-queuero-haegyeolhagi-redis-celery/)
 - 백엔드, ai pipeline은 로컬에서 실행됨
 
 ## 주요 기능 (Key Features)
