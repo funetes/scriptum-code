@@ -102,5 +102,3 @@ src/
 ├── utils/          # 헬퍼 함수 및 유틸리티
 └── main.tsx        # 진입점 (Entry Point)
 ```
-
-© 2026 Scriptum. All rights reserved.
