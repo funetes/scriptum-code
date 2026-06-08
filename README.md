@@ -1,6 +1,6 @@
 # Scriptum
 
-[Scriptum](https://scriptum.rootly.kr)은 한글 스크립트가 없는 YouTube 동영상의 스크립트를 AI로 생성하여 지식 아카이브를 구축하는 웹 애플리케이션입니다. 사용자는 키워드 검색을 통해 자막 내의 특정 정보를 빠르게 찾고, 해당 시점의 영상을 즉시 재생하여 학습 효율을 높일 수 있습니다.
+[Scriptum](https://scriptum.rootly.kr)은 한글 스크립트가 없는 YouTube 동영상의 스크립트를 Local AI로 생성하여 지식 아카이브를 구축하는 웹 애플리케이션입니다. 사용자는 키워드 검색을 통해 자막 내의 특정 정보를 빠르게 찾고, 해당 시점의 영상을 즉시 재생하여 학습 효율을 높일 수 있습니다.
 
 ## 아키텍처
 
@@ -17,20 +17,18 @@
 - **지식 검색 및 아카이브**: 자막 기반의 정교한 검색 기능을 통해 원하는 정보를 정확하게 찾아냅니다.
 - **실시간 영상 동기화**: 검색된 자막 시점으로 영상을 즉시 이동시켜 재생합니다.
 - **사용자 스크립트 관리**: 관심 있는 스크립트를 저장하고 관리할 수 있습니다.
-- **다국어 지원**: 다양한 언어의 자막 데이터를 처리하고 표시합니다.
 - **반응형 UI**: 데스크탑 및 모바일 환경에 최적화된 사용자 인터페이스를 제공합니다.
 
 ## 기술 스택 (Tech Stack)
 
 ### Frontend
 
-- **Core**: React 19, TypeScript, Vite
+- **Core**: React 19, TypeScript, Remix
 - **Styling**: TailwindCSS v4
-- **State Management**: React Context / Custom Hooks
-- **Routing**: React Router 7
+- **State Management**: React Context API / Custom Hooks
 - **Video Player**: React Player
 
-### Backend / BaaS
+### BaaS
 
 - **Firebase**:
   - **Authentication**: 사용자 인증 및 관리
